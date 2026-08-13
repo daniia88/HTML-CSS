@@ -1,0 +1,41 @@
+.static-positioning {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+}
+
+.relative-positioning {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(158, 16, 193);
+  color: white;
+  position: relative;
+  left: 20%;
+  top: 20px;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.relative-positioning2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  position: relative;
+  left: 20%;
+  top: -200px;
+  margin-bottom: 50px;
+  z-index: 2;
+}
+
+.absolute-positioning {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  margin-bottom: 50px;
+}
